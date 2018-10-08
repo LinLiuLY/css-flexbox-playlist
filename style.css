@@ -15,7 +15,7 @@ body {
 
 .flex-container {
     display: flex;
-    background: yellow;
+    background: white;
 }
 
 .box1 {
@@ -60,7 +60,7 @@ body {
 
 .flex-container3 {
     display: flex;
-    background: yellow;
+    background: white;
     flex-wrap: wrap;
 }
 
@@ -72,7 +72,6 @@ body {
 
 .one3 {
     background: blue;
-    ;
 }
 
 .two3 {
@@ -81,4 +80,30 @@ body {
 
 .three3 {
     background: greenyellow;
+}
+
+.flex-container4 {
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+}
+
+.box4 {
+    height: 100px;
+    flex-grow: 1;
+}
+
+.one4 {
+    background: blue;
+    flex-basis: 100px;
+}
+
+.two4 { 
+    background: gray;
+    flex-basis: 200px;
+}
+
+.three4 {
+    background: greenyellow;
+    flex-basis: 300px;
 }
