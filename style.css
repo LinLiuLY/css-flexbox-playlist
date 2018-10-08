@@ -10,7 +10,7 @@ body {
 .wrapper {
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .flex-container {
@@ -18,7 +18,7 @@ body {
     background: yellow;
 }
 
-.box {
+.box1 {
     height: 100px;
     min-width: 100px;
 }
@@ -36,4 +36,23 @@ body {
 .three {
     background: green;
     flex-grow: 1;
+}
+
+.box2 {
+    height: 100px;
+    width: 320px;
+}
+
+.one2 {
+    background: black;
+    flex-shrink: 1;
+}
+.two2 {
+    background: yellow;
+    flex-shrink: 2;
+}
+
+.three2 {
+    background: rebeccapurple;
+    flex-shrink: 3;
 }
