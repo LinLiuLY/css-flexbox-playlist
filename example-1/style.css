@@ -1,13 +1,13 @@
-*{
+* {
     font-family: verdana;
     margin: 0;
 }
 
-body{
+body {
     background: #eee;
 }
 
-.wrapper{
+.wrapper {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
@@ -15,7 +15,38 @@ body{
 
 /* menu base styles */
 
+nav {
+    background-color: green;
+}
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
+li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
 
 /* flex styles */
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav li {
+        /* This is the shorthand for flex-grow, flex-shrink and flex-basis combined. 
+        The second and third parameters (flex-shrink and flex-basis) are optional. 
+        Default is 0 1 auto. */
+        flex: 1 1 0;
+    }
+}
