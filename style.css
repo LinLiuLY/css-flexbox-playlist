@@ -47,6 +47,7 @@ body {
     background: black;
     flex-shrink: 1;
 }
+
 .two2 {
     background: yellow;
     flex-shrink: 2;
@@ -55,4 +56,29 @@ body {
 .three2 {
     background: rebeccapurple;
     flex-shrink: 3;
+}
+
+.flex-container3 {
+    display: flex;
+    background: yellow;
+    flex-wrap: wrap;
+}
+
+.box3 {
+    height: 100px;
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+.one3 {
+    background: blue;
+    ;
+}
+
+.two3 {
+    background: gray;
+}
+
+.three3 {
+    background: greenyellow;
 }
