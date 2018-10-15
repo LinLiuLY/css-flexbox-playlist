@@ -1,13 +1,13 @@
-*{
+* {
   font-family: verdana;
   margin: 0;
 }
 
-body{
+body {
   background: #eee;
 }
 
-.wrapper{
+.wrapper {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -15,16 +15,16 @@ body{
 
 /* menu base styles */
 
-nav{
+nav {
   background: #333;
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   text-align: center;
   color: #fff;
@@ -32,23 +32,56 @@ nav a{
   padding: 10px;
 }
 
-nav a:hover{
+nav a:hover {
   background-color: #555;
 }
 
 /* social menu base styles */
 
+a.tw {
+  background: url(img/tw.png) no-repeat center;
+  background-size: 80%;
+}
+
+a.fb {
+  background: url(img/fb.png) no-repeat center;
+  background-size: 80%;
+}
+
 /* flex styles */
 
-@media screen and (min-width: 768px){
-
-nav ul{
+nav ul.social {
+  flex: 1 1 0;
   display: flex;
 }
 
-nav li{
+nav ul.social li {
   flex: 1 1 0;
 }
-    
-} /* end media 768 */
 
+.social {
+  max-width: 80px;
+  margin: 0 auto;
+}
+
+.social a {
+  text-indent: -10000px;
+}
+
+@media screen and (min-width: 768px) {
+  nav ul {
+    display: flex;
+  }
+  nav li {
+    flex: 1 1 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social{
+    margin:0;
+  }
+}
+
+/* end media 768 */
