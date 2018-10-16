@@ -115,3 +115,35 @@ body {
     background: greenyellow;
     flex-basis: 300px;
 }
+
+#blocks{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.box5 {
+    flex: 0 0 100px;
+    padding: 40px 0;
+    text-align: center;    
+}
+
+.one5 {
+    order: 1;
+    background: greenyellow;
+}
+
+.two5 {
+    order: 3;
+    background: blue;
+}
+
+.three5 {
+    order: 2;
+    background: gray;
+}
+
+.four5 {
+    order: 0;
+    background: black;
+}
