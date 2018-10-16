@@ -38,9 +38,17 @@ body {
     flex-grow: 1;
 }
 
+.flex-container2 {
+    display: flex;
+    background: white;
+    flex-flow: column;
+    justify-content: center;
+    height: 800px;
+}
+
 .box2 {
     height: 100px;
-    width: 320px;
+    flex: 0 0 100px;
 }
 
 .one2 {
